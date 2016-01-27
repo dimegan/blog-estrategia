@@ -18,12 +18,8 @@ get_header(); ?>
 			<?php get_template_part( 'home-list-posts' ); ?>
 		</div>
 		<div class="col-md-4">
-			<h3>Side bar</h3>
-			<span>
-				Bienvenido a WordPress. Esta es tu primera entrada. Edítala o bórrala, ¡y comienza a publicar!.
-			</span>
+			<?php get_sidebar(); ?>
 		</div>
 	</div>
 </main><!-- #content -->
-<?php get_sidebar('footer'); ?>
 <?php get_footer(); ?>

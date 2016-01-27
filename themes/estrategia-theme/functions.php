@@ -54,30 +54,6 @@ function inkness_widgets_init() {
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
 	) );
-	register_sidebar( array(
-		'name'          => __( 'Footer Left', 'inkness' ),
-		'id'            => 'sidebar-2',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
-	) );
-	register_sidebar( array(
-		'name'          => __( 'Footer Center', 'inkness' ),
-		'id'            => 'sidebar-3',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
-	) );
-	register_sidebar( array(
-		'name'          => __( 'Footer Right', 'inkness' ),
-		'id'            => 'sidebar-4',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
-	) );
 }
 add_action( 'widgets_init', 'inkness_widgets_init' );
 

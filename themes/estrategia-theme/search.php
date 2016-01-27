@@ -5,35 +5,32 @@
  * @package Inkness
  */
 
-get_header(); ?>
+get_header(); ?>	
+	<div class="content-area container">
+		<div class="row">
+			<div class="col-md-8">
+				<?php if ( have_posts() ) : ?>
 
-	<section id="primary" class="content-area col-md-8">
-		<main id="main" class="site-main" role="main">
+					<header class="page-header">
+						<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'inkness' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+					</header><!-- .page-header -->
 
-		<?php if ( have_posts() ) : ?>
+					<?php /* Start the Loop */ ?>
+					<?php while ( have_posts() ) : the_post(); ?>
 
-			<header class="page-header">
-				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'inkness' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
-			</header><!-- .page-header -->
+						<?php get_template_part( 'home-post-content' );  ?>
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+					<?php endwhile; ?>
 
-				<?php get_template_part( 'content', 'search' ); ?>
+				<?php else : ?>
 
-			<?php endwhile; ?>
+					<?php get_template_part( 'no-results', 'search' ); ?>
 
-			<?php inkness_content_nav( 'nav-below' ); ?>
-
-		<?php else : ?>
-
-			<?php get_template_part( 'no-results', 'search' ); ?>
-
-		<?php endif; ?>
-
-		</main><!-- #main -->
-	</section><!-- #primary -->
-
-<?php get_sidebar(); ?>
-<?php get_sidebar('footer'); ?>
+				<?php endif; ?>
+			</div>
+			<div class="col-md-4">
+				<?php get_sidebar(); ?>
+			</div>
+		</div>
+	</div><!-- #content -->
 <?php get_footer(); ?>
