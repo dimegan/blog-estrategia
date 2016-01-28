@@ -708,13 +708,6 @@ h1.page-title {
   list-style: none;
   margin-left: 5px;
 }
-#secondary ul li:before,
-#footer-sidebar ul li:before {
-  margin-right: 5px;
-  content: "\f0da";
-  font-family: "FontAwesome";
-  color: #999999;
-}
 #secondary ul li,
 #footer-sidebar ul li {
   margin-bottom: 8px;

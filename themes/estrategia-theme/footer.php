@@ -7,9 +7,10 @@
  * @package Inkness
  */
 ?>
+	<!-- MenuEstrategia must be the default menu -->
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<?php wp_nav_menu( array( 'menu' => 'menu-revista', 
+			<?php wp_nav_menu( array( 'menu' => 'MenuEstrategia', 
 			'theme_location' => 'secondary',
 			'menu_id'      => 'footer-menu' ) ); ?>
 		</div>
