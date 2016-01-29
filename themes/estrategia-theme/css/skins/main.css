@@ -614,12 +614,6 @@ body.archive .entry-title {
 footer.entry-meta {
   margin-top: 25px;
 }
-
-.single .entry-meta,
-.page .entry-meta {
-  border-bottom: solid 1px #e5e5e5;
-  padding-bottom: 15px;
-}
 .single footer.entry-meta,
 .page footer.entry-meta {
   border-bottom: none;
@@ -701,7 +695,7 @@ h1.page-title {
 ------------------------------------------------------- */
 #secondary,
 #footer-sidebar {
-  padding: 20px 10px;
+  padding: 0px 10px 20px;
 }
 #secondary ul,
 #footer-sidebar ul {
@@ -779,18 +773,7 @@ h1.page-title {
 #footer-sidebar .widget_calendar #next {
   text-align: right;
 }
-#secondary h1.widget-title,
-#footer-sidebar h1.widget-title {
-  font-size: 25px;
-  font-weight: normal;
-  border-bottom: solid 4px #d9d9d9;
-  padding: 5px;
-  margin-top: 0px;
-  color: #00bac4;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 24px;
-  padding-bottom: 20px;
-}
+
 #secondary .widget_search label,
 #footer-sidebar .widget_search label {
   width: 100%;
@@ -804,12 +787,7 @@ h1.page-title {
 #footer-sidebar .widget_search input[type=submit] {
   display: none;
 }
-#secondary .widget_search input[type=text],
-#footer-sidebar .widget_search input[type=text] {
-  display: block;
-  min-width: 96%;
-  margin-left: 20px;
-}
+
 #secondary select#cat,
 #footer-sidebar select#cat {
   margin-bottom: 10px;
@@ -818,9 +796,7 @@ h1.page-title {
 #secondary .widget,
 #footer-sidebar .widget {
   background: #fff;
-  margin-top: 15px;
   padding-top: 0px;
-  padding: 10px;
   border: solid 1px #eee;
 }
 #secondary .widget a,
@@ -1178,7 +1154,6 @@ article code {
   min-height: 250px;
   height: 400px;
   width: 100%;
-  margin-top: 20px;
 }
 .post-super-image{
   width: 100%;

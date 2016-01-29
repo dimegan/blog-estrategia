@@ -581,6 +581,9 @@ header.carousel .fill {
     transition: all 0.25s ease-in-out;	
 }
 /*Home dmg*/
+#primary-home, #primary-single{
+	margin-top: 20px;
+}
 #primary-home .entry-header {
 	margin-bottom: 20px;
 }
@@ -684,6 +687,35 @@ nav.pagination{
 	background: #10100f;
 	color: #fff;	
 }
+/*Sidebar*/
+#secondary h1.widget-title,
+#footer-sidebar h1.widget-title {
+  font-weight: normal;
+  /*border-bottom: solid 4px #d9d9d9;*/
+  margin-top: 0px;
+  color: #fff;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  background-color: #373B44;
+  text-align: center;
+  padding: 10px;
+}
+#secondary .widget > div, #secondary .widget > ul{
+	padding: 10px;
+}
+#secondary .widget form.search-form{
+    padding: 10px;
+    margin: 0;
+}
+#secondary .widget form.search-form > .search-form{
+	margin: 0 10px;
+}
+#secondary .widget_search input[type=text],
+#footer-sidebar .widget_search input[type=text] {
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+}
 /*Post single*/
 .post-title h1 {
     font-size: 48px;
@@ -708,6 +740,11 @@ nav.pagination{
   padding-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
   margin-top: 40px;
+}
+.entry-header .entry-meta,
+.page .entry-meta {
+  border-bottom: solid 1px #e5e5e5;
+  padding-bottom: 15px;
 }
 /*Author info*/
 #author-info{

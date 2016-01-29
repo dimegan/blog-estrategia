@@ -12,13 +12,15 @@
  */
 
 get_header(); ?>
-<main id="primary-home" class="site-content container">
-	<div class="row">
-		<div class="col-md-8">
-			<?php get_template_part( 'home-list-posts' ); ?>
-		</div>
-		<div class="col-md-4">
-			<?php get_sidebar(); ?>
+<main id="primary-home" class="site-content">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<?php get_template_part( 'home-list-posts' ); ?>
+			</div>
+			<div class="col-md-4">
+				<?php get_sidebar(); ?>
+			</div>
 		</div>
 	</div>
 </main><!-- #content -->
