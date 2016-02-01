@@ -834,9 +834,8 @@ function tptn_pop_posts( $args ) {
 				/**** DMG *****/
 				$output .= '<article class="cp-wrap cp-small clearfix">
 								';
-
-				/*DMG: always use thumbnail becouse I delete the other case*/
-				$post_img = get_the_post_thumbnail($postid, 'cp-thumb-small');
+								
+				$post_img = get_the_post_thumbnail($postid, 'thumbnail');
 				//PREVENT WHEN DOES NOT HAVE A THUMB IMG
 				if($post_img !== ''){
 					$output .= '<div class="cp-thumb-small">
@@ -848,35 +847,6 @@ function tptn_pop_posts( $args ) {
 
 				$post_details = '';
 
-				if ( $show_author ) {
-					$author_info = get_userdata( $result->post_author );
-					$author_name = ucwords( trim( stripslashes( $author_info->display_name ) ) );
-					$author_link = get_author_posts_url( $author_info->ID );
-
-					/**
-					 * Filter the author name.
-					 *
-					 * @since	1.9.1
-					 *
-					 * @param	string	$author_name	Proper name of the post author.
-					 * @param	object	$author_info	WP_User object of the post author
-					 */
-					$author_name = apply_filters( 'tptn_author_name', $author_name, $author_info );
-
-					$tptn_author = '<span class="tptn_author"> ' . __( ' by ', TPTN_LOCAL_NAME ).'<a href="' . $author_link . '">' . $author_name . '</a></span> ';
-
-					/**
-					 * Filter the text with the author details.
-					 *
-					 * @since	2.0.0
-					 *
-					 * @param	string	$tptn_author	Formatted string with author details and link
-					 * @param	object	$author_info	WP_User object of the post author
-					 */
-					$tptn_author = apply_filters( 'tptn_author', $tptn_author, $author_info );
-
-					$post_details .= $tptn_author;
-				}
 
 				//if ( $show_date ) {
 					$post_details .= '<span class="tptn_date"> ' . mysql2date( get_option( 'date_format', 'd/m/y' ), $result->post_date ).'</span> ';
@@ -898,16 +868,16 @@ function tptn_pop_posts( $args ) {
 
 				/***** DMG *****/
 				$output .= '
-						<h3 class="cp-title-small">
-							<a href="' . get_permalink( $postid ) . '" title="' . $post_title . '" rel="bookmark">
+						<div class="top-details">
+							<a href="' . get_permalink( $postid ) . '" title="' . $post_title . '" rel="bookmark" class="top-title est-link">
 							' . $post_title .'
 							</a>
-						</h3>
-						<p class="entry-meta">
-							<span>' 
-								. $post_details .
-							'</span>
-						</p>
+							<p class="top-meta">
+								<span>' 
+									. $post_details .
+								'</span>
+							</p>
+						</div>
 						'
 						. $post_summary .
 					'</article>';

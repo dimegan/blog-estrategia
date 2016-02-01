@@ -790,7 +790,7 @@ nav.pagination{
 	font-size: 19px;
 }
 .tptn_posts_widget article{
-	margin: 5px;
+	margin: 10px 5px;
 }
 #secondary div.tptn_posts_widget {
 	padding: 0;
@@ -799,12 +799,28 @@ nav.pagination{
 	margin: 0;
 }
 #secondary .tptn_posts_widget ul li{
-	border-bottom: solid 2px #eee;
-	margin-bottom: 20px;
+	border-bottom: solid 1px #eee;
+	margin-bottom: 10px;
 }
 #secondary .tptn_posts_widget ul li:last-child{
 	border-bottom-width: 0;
 	margin-bottom: 0;
+}
+.cp-thumb-small{
+  float: left;
+  max-width: 100px;
+}
+.top-details{
+  float: left;
+  max-width: 127px;
+  margin-left: 20px;
+}
+#secondary .top-details a{
+  color: #000;
+}
+.top-details .top-meta{
+  color: #999999;
+  font-size: .9em;
 }
 /*related posts*/
 .related-posts{

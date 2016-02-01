@@ -794,7 +794,7 @@ h1.page-title {
 }
 #secondary .widget a,
 #footer-sidebar .widget a {
-  color: #999999;
+  color: #000;
 }
 #secondary .widget > div,
 #footer-sidebar .widget > div {
