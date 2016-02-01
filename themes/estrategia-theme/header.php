@@ -31,23 +31,7 @@
 </script>
 <div id="page" class="hfeed site">
 	<?php do_action( 'inkness_before' ); ?>
-	<header>
-		<div id="header-top">
-			<div class="container">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/custom/logo100.png" alt="Revista xilo">
-				</a>
-			</div><!-- #masthead -->
-		</div>
-		<div id="xilo-logo">
-			<div class="container">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/custom/xilo100.png" alt="Revista xilo">
-				</a>
-			</div>
-		</div>
-	</header>
-	<div id="header-2">
+	<div id="header-2" class="wrapper-menu">
 		<div class="container">
 			<div class="default-nav-wrapper col-md-12 col-xs-12"> 	
 				<nav id="site-navigation" class="main-navigation" role="navigation">
@@ -61,6 +45,19 @@
 			</div>
 		</div>
 	</div>
+	<header>
+		<!--<div id="header-top">
+			<div class="container">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/custom/logo100.png" alt="Revista xilo">
+				</a>
+			</div>
+		</div>-->
+		<div id="estrategias-header">
+			<img src="<?php echo get_template_directory_uri(); ?>/images/custom/estrategias-header.jpg" alt="Estrategias educativas" class="img-responsive center-block">			
+		</div>
+	</header>
+	
 	
 
 	

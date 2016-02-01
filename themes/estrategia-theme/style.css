@@ -574,13 +574,39 @@ header.carousel .fill {
 }/*Helpers for estrategia style*/
 .animate-hover{
 	/*nice transition for call to action buttons*/
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
-    -ms-transition: all 0.25s ease-in-out;
-    transition: all 0.25s ease-in-out;	
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;	
+}
+a.back-est-action{
+	background-color: #48AB99;
+}
+a.back-est-action:hover{
+	background-color: #D46C56;
+	text-decoration: none;
+}
+#primary-home a.est-link:hover{
+	color: #48AB99;	
 }
 /*Home dmg*/
+#estrategias-header{
+	background-color: #142A3A;
+}
+.wrapper-menu{
+	width: 100%;
+	background-color: #1c1c1c;
+}
+.wrapper-menu #site-navigation li{
+	background-color: #1c1c1c;
+}
+#site-navigation li:hover > a {
+  background-color: #48AB99;
+}
+.wrapper-menu #site-navigation li a{
+	color: #fff;	
+}
 #primary-home, #primary-single{
 	margin-top: 20px;
 }
@@ -645,7 +671,6 @@ header.carousel .fill {
     border: none;
     color: #fff !important;
     padding: 10px 20px;
-    background: #10100f;
     font-size: 1.2em;
 }
 
@@ -655,14 +680,6 @@ header.carousel .fill {
   color: #999999;
   transition: 0.4s all ease;
   line-height: 1.5em;
-}
-#primary-home .entry-title a:hover{
-	color: #e03821;
-	text-decoration: none;
-}
-.webly-read-more a:hover{
-	background-color: #e03821;
-	text-decoration: none;
 }
 /*Pagination*/
 nav.pagination{

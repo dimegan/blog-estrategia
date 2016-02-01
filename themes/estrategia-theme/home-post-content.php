@@ -13,7 +13,7 @@
 				<?php endif; ?>
 				<header class="entry-header">
 					<h1 class="entry-title text-center">
-						<a href="<?php the_permalink(); ?>" rel="bookmark" class="animate-hover">
+						<a href="<?php the_permalink(); ?>" rel="bookmark" class="animate-hover est-link">
 							<?php the_title(); ?>
 						</a>
 					</h1>
@@ -29,7 +29,7 @@
 						<?php the_excerpt(); ?>
 					</div><!-- .entry-content -->
 					<div class="webly-read-more animate-hover">
-						<a href="<?php the_permalink(); ?>">
+						<a href="<?php the_permalink(); ?>" class="back-est-action">
 							Continuar leyendo
 						</a>
 					</div>

@@ -130,10 +130,7 @@ a:hover .social-icon {
 }
 /* 3. header-2
 ------------------------------------------------------- */
-#header-2 {
-  width: 100%;
-  background: #FFF;
-}
+
 #top-search {
   float: right;
   position: relative;
@@ -305,10 +302,6 @@ a:active {
 #site-navigation ul ul a:hover {
   border-bottom: none;
   background: none;
-}
-#site-navigation li:hover > a {
-  color: #fff;
-  background-color: #1c1c1c;
 }
 #site-navigation ul ul li:hover > a {
   background-color: #1c1c1c;
@@ -1054,10 +1047,6 @@ article code {
   margin-bottom: 10px;
 }
 /*home nav*/
-#header-2 {
-  border-bottom: 3px solid #161616;
-  margin-bottom: 5px;
-}
 #site-navigation ul > li > a {
   padding-bottom: 10px;
   padding-top: 10px;
