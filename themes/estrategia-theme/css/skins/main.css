@@ -189,12 +189,12 @@ a:hover .social-icon {
 /* 4. Links
 ------------------------------------------------------- */
 a {
-  color: #00bac4;
+  color: #48AB99;
 }
 a:hover,
 a:focus,
 a:active {
-  color: #00d2de;
+  color: #358274;
 }
 /* 5. Carousel Wrapper
 ------------------------------------------------------- */
@@ -791,10 +791,6 @@ h1.page-title {
   background: #fff;
   padding-top: 0px;
   border: solid 1px #eee;
-}
-#secondary .widget a,
-#footer-sidebar .widget a {
-  color: #000;
 }
 #secondary .widget > div,
 #footer-sidebar .widget > div {

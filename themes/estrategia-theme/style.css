@@ -580,14 +580,8 @@ header.carousel .fill {
     -ms-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;	
 }
-a.back-est-action{
-	background-color: #48AB99;
-}
-a.back-est-action:hover{
-	background-color: #D46C56;
-	text-decoration: none;
-}
-#primary-home a.est-link:hover{
+#primary-home a.est-link:hover, #secondary a.est-link:hover,
+#secondary .widget a:hover{
 	color: #48AB99;	
 }
 /*Home dmg*/
@@ -716,6 +710,10 @@ nav.pagination{
   background-color: #373B44;
   text-align: center;
   padding: 10px;
+}
+#secondary .widget a,
+#footer-sidebar .widget a {
+  color: #000;
 }
 #secondary .widget > div, #secondary .widget > ul{
 	padding: 10px;
