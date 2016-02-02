@@ -9,7 +9,7 @@
 	<div class="search-form">
 	<label>
 		<span class="screen-reader-text"><?php _ex( 'Search for:', 'label', 'inkness' ); ?></span>
-		<input type="text" class="search-field" placeholder="<?php echo esc_attr_x( 'Search for anything on this site...', 'placeholder', 'inkness' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>" name="s">
+		<input type="text" class="search-field" placeholder="<?php echo esc_attr_x( 'Buscar en el blog ...', 'placeholder', 'inkness' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>" name="s">
 	</label>
 	<button type="submit" class="btn btn-default search-submit"><i class="fa fa-search"> </i></button>
 	</div>

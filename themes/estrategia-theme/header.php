@@ -46,13 +46,6 @@
 		</div>
 	</div>
 	<header>
-		<!--<div id="header-top">
-			<div class="container">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/custom/logo100.png" alt="Revista xilo">
-				</a>
-			</div>
-		</div>-->
 		<div id="estrategias-header">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/custom/estrategias-header.jpg" alt="Estrategias educativas" class="img-responsive center-block">			
 		</div>

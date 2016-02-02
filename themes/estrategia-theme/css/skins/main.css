@@ -859,7 +859,6 @@ h1.page-title {
 /* 9. Footer 
 ------------------------------------------------------- */
 #colophon {
-  background: #ffffff;
   padding: 10px;
   border-top: solid 1px #ddd;
   border-bottom: solid 4px #ddd;
@@ -1065,7 +1064,6 @@ article code {
 }
 /*footer*/
 #colophon {
-  background-color: #10100f;
   color: #fff;
   padding-bottom: 0;
   border: 0;
@@ -1073,43 +1071,8 @@ article code {
 #colophon ul, #colophon ol {
   margin: 0 0 1em 0;
 }
-
-#colophon li > a{
-  color: #fff;
-}
 #footer-sidebar {
   padding: 0;
-}
-#footer-menu li{
-  list-style: none;
-}
-#footer-menu:after{
-  clear: both;
-}
-#footer-menu > li > a{
-  color: #00d2de;
-  font-size: 18px;
-  font-weight: 500;
-}
-#footer-menu .sub-menu{
-  margin-top: 5px;
-}
-#footer-menu > li{
-  width: 20%;
-  float: left;
-  padding: 10px 0;
-  text-align: center;
-}
-@media (max-width: 768px ) { 
-  #footer-menu > li{
-    width: 100%;
-    float: none;
-  }
-}
-@media (min-width: 768px) and (max-width: 992px) {
-  #footer-menu > li{
-    width: 33%;
-  }
 }
 /*single post*/
 #primary{

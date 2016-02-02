@@ -28,8 +28,8 @@
 					<div class="entry-content">
 						<?php the_excerpt(); ?>
 					</div><!-- .entry-content -->
-					<div class="webly-read-more animate-hover">
-						<a href="<?php the_permalink(); ?>" class="back-est-action">
+					<div class="webly-read-more">
+						<a href="<?php the_permalink(); ?>" class="animate-hover btn-action btn-read-more">
 							Continuar leyendo
 						</a>
 					</div>

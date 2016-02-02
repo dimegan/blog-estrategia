@@ -571,7 +571,8 @@ header.carousel .fill {
   color: #fff;
   text-decoration: none;
   font-size: 38px;
-}/*Helpers for estrategia style*/
+}
+/*Helpers for estrategia style*/
 .animate-hover{
 	/*nice transition for call to action buttons*/
     -webkit-transition: all 0.15s ease-in-out;
@@ -584,15 +585,21 @@ header.carousel .fill {
 #secondary .widget a:hover{
 	color: #48AB99;	
 }
-/*Home dmg*/
+.btn-action{
+	background-color: #48AB99;	
+}
+.btn-action:hover{
+	background-color: #D46C56;
+}
+/*Menu*/
 #estrategias-header{
+	/*background for logo*/
 	background-color: #142A3A;
 }
 .wrapper-menu{
 	width: 100%;
-	background-color: #1c1c1c;
 }
-.wrapper-menu #site-navigation li{
+.wrapper-menu, .wrapper-menu #site-navigation li{
 	background-color: #1c1c1c;
 }
 #site-navigation li:hover > a {
@@ -601,6 +608,7 @@ header.carousel .fill {
 .wrapper-menu #site-navigation li a{
 	color: #fff;	
 }
+/*Home dmg*/
 #primary-home, #primary-single{
 	margin-top: 20px;
 }
@@ -661,13 +669,12 @@ header.carousel .fill {
 .webly-read-more{
     margin: 30px 0;
 }
-.webly-read-more a{
+.btn-read-more{
     border: none;
     color: #fff !important;
     padding: 10px 20px;
     font-size: 1.2em;
 }
-
 #primary-home .entry-title a {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -691,11 +698,11 @@ nav.pagination{
     color: #10100f;
 }
 .pagination a:hover{
-	background: #10100f;
+	background-color: #48AB99;
 	color: #fff;
 }
 .pagination span.current{
-	background: #10100f;
+	background-color: #D46C56;;
 	color: #fff;	
 }
 /*Sidebar*/
@@ -730,6 +737,25 @@ nav.pagination{
   display: block;
   width: 100%;
   padding: 5px 10px;
+}
+/*Site footer*/
+#colophon {
+	background-color: #1c1c1c;
+}
+#footer-menu{
+	text-align: center;
+	font-size: 1.1em;
+    font-weight: bold;
+}
+#social-list a{
+	color: #fff;
+}
+#social-list li, #footer-menu li{
+	margin: 8px 0;
+}
+#social-list img{
+	margin-top: -5px;
+	margin-right: 5px;
 }
 /*Post single*/
 .post-title h1 {
