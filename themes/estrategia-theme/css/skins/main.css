@@ -220,7 +220,6 @@ a:active {
   clear: both;
   display: block;
   display: inline-block;
-  background: #ffffff;
   padding-bottom: 0px;
   border: none;
   text-align: center;
@@ -250,7 +249,6 @@ a:active {
   position: absolute;
   left: 0;
   z-index: 99999;
-  background: #1c1c1c;
   text-align: left;
   border: none;
   border-top: solid 3px #1c1c1c;
@@ -342,7 +340,6 @@ a:active {
   .menu-toggle,
   .main-navigation.toggled .nav-menu {
     display: block;
-    color: #00bac4;
     font-weight: bold;
     text-transform: uppercase;
     padding: 10px;

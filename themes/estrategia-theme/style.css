@@ -591,6 +591,9 @@ header.carousel .fill {
 .btn-action:hover{
 	background-color: #D46C56;
 }
+.menu-toggle{
+	color: #48AB99;		
+}
 /*Menu*/
 #estrategias-header{
 	/*background for logo*/
@@ -599,7 +602,7 @@ header.carousel .fill {
 .wrapper-menu{
 	width: 100%;
 }
-.wrapper-menu, .wrapper-menu #site-navigation li{
+.wrapper-menu, #site-navigation, .wrapper-menu #site-navigation li{
 	background-color: #1c1c1c;
 }
 #site-navigation li:hover > a {

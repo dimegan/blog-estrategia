@@ -27,7 +27,7 @@
 				</div>
 				<div class="col-md-4">
 					<!-- social networks -->
-					<ul id="social-list" class="list-unstyled">
+					<ul id="social-list" class="list-unstyled text-center">
 						<li>
 							<a href="#">
 								<img src="<?php echo get_template_directory_uri(); ?>/images/icons/facebook.png" alt="Estrategias educativas">			
