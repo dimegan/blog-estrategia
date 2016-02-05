@@ -856,7 +856,6 @@ h1.page-title {
 /* 9. Footer 
 ------------------------------------------------------- */
 #colophon {
-  padding: 10px;
   border-top: solid 1px #ddd;
   border-bottom: solid 4px #ddd;
   width: auto;
@@ -1062,7 +1061,6 @@ article code {
 /*footer*/
 #colophon {
   color: #fff;
-  padding-bottom: 0;
   border: 0;
 }
 #colophon ul, #colophon ol {

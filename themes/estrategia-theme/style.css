@@ -604,6 +604,7 @@ header.carousel .fill {
 }
 .wrapper-menu, #site-navigation, .wrapper-menu #site-navigation li{
 	background-color: #1c1c1c;
+	background-image: url(images/custom/textura.jpg);
 }
 #site-navigation li:hover > a {
   background-color: #48AB99;
@@ -744,11 +745,23 @@ nav.pagination{
 /*Site footer*/
 #colophon {
 	background-color: #1c1c1c;
+	background-image: url(images/custom/textura.jpg);
+	background-repeat: repeat;
+	padding: 10px 10px 15px;
+}
+.footer-sec-content{
+	margin: 50px 0;
 }
 #footer-menu{
 	text-align: center;
-	font-size: 1.1em;
-    font-weight: bold;
+	font-size: 1.3em;
+}
+#footer-menu a{
+	color: #fff;
+	text-decoration: underline;
+}
+#footer-menu a:hover{
+	color: #48AB99;
 }
 #social-list a{
 	color: #fff;

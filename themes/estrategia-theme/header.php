@@ -47,7 +47,7 @@
 	</div>
 	<header>
 		<div id="estrategias-header">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/custom/estrategias-header.jpg" alt="Estrategias educativas" class="img-responsive center-block">			
+			<img src="<?php echo get_template_directory_uri(); ?>/images/custom/estrategias-header.jpg" alt="Estrategias docentes" class="img-responsive center-block">			
 		</div>
 	</header>
 	

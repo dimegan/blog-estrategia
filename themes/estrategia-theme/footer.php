@@ -12,13 +12,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
-					<span>
+					<img src="<?php echo get_template_directory_uri(); ?>/images/custom/logo-estrategias.png" alt="Logo estrategias docentes" class="img-responsive center-block">
+					<p>
 						Cursos profesionales de desarrollo web y de apps, marketing online, diseño de interfaces, servidores. Con clases en vivo y profesores sabios de la industria.
-					</span>
+					</p>
 				</div>
 				<div class="col-md-4">
 					<!-- menu on footer-->
-					<div class="site-info">
+					<div class="footer-sec-content">
 						<?php wp_nav_menu( array( 'menu' => 'MenuEstrategia', 
 						'theme_location' => 'secondary',
 						'menu_id'      => 'footer-menu',
@@ -26,34 +27,36 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<!-- social networks -->
-					<ul id="social-list" class="list-unstyled text-center">
-						<li>
-							<a href="#">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/icons/facebook.png" alt="Estrategias educativas">			
-								<span>/estrategias-docentes</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/icons/twitter.png" alt="Estrategias educativas">			
-								<span>@estrategias.docentes</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/icons/linkedin.png" alt="Estrategias educativas">			
-								<span>/estrategias-docentes</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/icons/youtube.png" alt="Estrategias educativas">			
-								<span>Estrategias docentes</span>
-							</a>
-						</li>
-					</ul>
-				</div>
+					<div class="footer-sec-content">
+						<!-- social networks -->
+						<ul id="social-list" class="list-unstyled text-center">
+							<li>
+								<a href="#">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/icons/facebook.png" alt="Estrategias educativas">			
+									<span>/estrategias-docentes</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/icons/twitter.png" alt="Estrategias educativas">			
+									<span>@estrategias.docentes</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/icons/linkedin.png" alt="Estrategias educativas">			
+									<span>/estrategias-docentes</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/icons/youtube.png" alt="Estrategias educativas">			
+									<span>Estrategias docentes</span>
+								</a>
+							</li>
+						</ul>
+					</div><!-- deconday content-->
+				</div><!-- col-md-4 -->
 			</div>
 		</div>
 	</footer><!-- #colophon -->
