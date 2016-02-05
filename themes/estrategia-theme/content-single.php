@@ -29,7 +29,7 @@
 			<?php get_template_part( 'dmg/related-posts' ); ?>
 			<br/>
 			<!-- FACEBOOK COMMENT DIRECTION -->
-			<div class="fb-comments facebook-widget" data-href="<?php the_permalink(); ?>" data-numposts="5" data-colorscheme="light">
+			<div class="fb-comments facebook-widget" data-href="<?php the_permalink(); ?>" data-numposts="5" data-colorscheme="light" data-width="100%">
 			</div>
 			<!-- END COMMENT DIRECTION -->
 

@@ -803,6 +803,13 @@ nav.pagination{
   border-bottom: solid 1px #e5e5e5;
   padding-bottom: 15px;
 }
+/*Facebook comments*/
+.fb_iframe_widget,
+.fb_iframe_widget span,
+.fb_iframe_widget span iframe[style] {
+  min-width: 100% !important;
+  width: 100% !important;
+}
 /*Author info*/
 #author-info{
 	margin-top: 10px;
