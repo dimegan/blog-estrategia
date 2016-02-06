@@ -42,8 +42,11 @@
 					<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 				  </div>  
 				</nav><!-- #site-navigation -->
-			</div>
-		</div>
+				<div class="social-header visible-lg-block visible-md-block">
+					<?php get_template_part( 'social-header' ); ?>
+				</div><!-- social header-->
+			</div><!-- col -->
+		</div><!-- row -->
 	</div>
 	<header>
 		<div id="estrategias-header">

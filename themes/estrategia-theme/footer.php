@@ -32,25 +32,25 @@
 						<ul id="social-list" class="list-unstyled text-center">
 							<li>
 								<a href="#">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/icons/facebook.png" alt="Estrategias educativas">			
+									<img src="<?php echo get_template_directory_uri(); ?>/images/icons/facebook.png" alt="Siguenos en facebook">			
 									<span>/estrategias-docentes</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/icons/twitter.png" alt="Estrategias educativas">			
+									<img src="<?php echo get_template_directory_uri(); ?>/images/icons/twitter.png" alt="Siguenos en twitter">			
 									<span>@estrategias.docentes</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/icons/linkedin.png" alt="Estrategias educativas">			
+									<img src="<?php echo get_template_directory_uri(); ?>/images/icons/linkedin.png" alt="Siguenos en linkedin">			
 									<span>/estrategias-docentes</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/icons/youtube.png" alt="Estrategias educativas">			
+									<img src="<?php echo get_template_directory_uri(); ?>/images/icons/youtube.png" alt="Siguenos en youtube">			
 									<span>Estrategias docentes</span>
 								</a>
 							</li>

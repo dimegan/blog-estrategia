@@ -612,6 +612,15 @@ header.carousel .fill {
 .wrapper-menu #site-navigation li a{
 	color: #fff;	
 }
+/*header*/
+.social-header{
+	float: right;
+	padding: 10px 10px 0;
+}
+.social-header img{
+	height: 24px;
+	width: auto;
+}
 /*Home dmg*/
 #primary-home, #primary-single{
 	margin-top: 20px;
