@@ -198,7 +198,7 @@ function dmg_add_facebook_meta_info() {
 		echo '<meta property="og:url" content="' . network_site_url( '/' ) .'"/>';
 		echo '<meta property="og:description" content="'. get_bloginfo( 'description' ) .'" />';
 		echo '<meta property="og:site_name" content="'. $site_title .'"/>';
-		$logoImage = get_template_directory_uri() . '/images/custom/xilo100.png';
+		$logoImage = get_template_directory_uri() . '/images/custom/estrategias-header.jpg';
 		echo '<meta property="og:image" content="'. $logoImage .'"/>';
 		echo '<meta property="og:image:width" content="171"/>';
 		echo '<meta property="og:image:height" content="60"/>';
