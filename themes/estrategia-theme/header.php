@@ -43,7 +43,8 @@
 	</div>
 	<header>
 		<div id="estrategias-header">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/custom/estrategias-header.jpg" alt="Estrategias docentes" class="img-responsive center-block">			
+			<img src="<?php echo get_template_directory_uri(); ?>/images/custom/estrategias-header.jpg" alt="Estrategias docentes" class="img-responsive center-block hidden-xs">
+			<img src="<?php echo get_template_directory_uri(); ?>/images/custom/estrategias-head-small.jpg" alt="Estrategias docentes" class="img-responsive center-block visible-xs">			
 		</div>
 	</header>
 	

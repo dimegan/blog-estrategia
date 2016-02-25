@@ -5,7 +5,7 @@
 		</a>
 	</li>
 	<li>
-		<a href="https://twitter.com/mis_estrategias" alt="Siguenos en twitter">
+		<a href="https://twitter.com/mis_estrategias" title="Siguenos en twitter">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/icons/twitter-wh.png" alt="Siguenos en twitter">			
 		</a>
 	</li>

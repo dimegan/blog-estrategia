@@ -711,10 +711,6 @@ h1.page-title {
 #footer-sidebar ul ul ul {
   margin-left: 5px;
 }
-#secondary .widget_recent_entries li:before,
-#footer-sidebar .widget_recent_entries li:before {
-  content: "\f0f6";
-}
 #secondary .widget_recent_entries li,
 #footer-sidebar .widget_recent_entries li {
   border-bottom: solid 1px #ffffff;
