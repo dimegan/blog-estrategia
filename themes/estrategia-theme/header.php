@@ -36,7 +36,7 @@
 				  </div>  
 				</nav><!-- #site-navigation -->
 				<div class="social-header visible-lg-block visible-md-block">
-					<?php get_template_part( 'social-header' ); ?>
+					<?php get_template_part( 'dmg/social-header' ); ?>
 				</div><!-- social header-->
 			</div><!-- col -->
 		</div><!-- row -->
