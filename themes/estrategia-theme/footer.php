@@ -13,7 +13,7 @@
 			<div class="row">
 				<div class="col-md-4">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/custom/logo-estrategias.png" alt="Logo estrategias docentes" class="img-responsive center-block">
-					<p>
+					<p class="text-center">
 						Blog para intercambiar saberes, formular preguntas y apoyar el uso de las nuevas tecnologías en la educación preescolar.
 					</p>
 				</div>

@@ -1,6 +1,6 @@
 <ul class="list-unstyled list-inline">
 	<li>
-		<a href="https://www.facebook.com/preescolarsoya/?fref=ts" title="Siguenos en facebook">
+		<a href="https://www.facebook.com/misestrategiasdocentes/" title="Siguenos en facebook">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/icons/facebook-wh.png" alt="Siguenos en facebook">			
 		</a>
 	</li>

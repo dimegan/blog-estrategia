@@ -1,9 +1,9 @@
 <!-- social networks -->
 <ul id="social-list" class="list-unstyled text-center">
 	<li>
-		<a href="https://www.facebook.com/preescolarsoya/?fref=ts" title="Siguenos en facebook">
+		<a href="https://www.facebook.com/misestrategiasdocentes/" title="Siguenos en facebook">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/icons/facebook.png" alt="Siguenos en facebook">			
-			<span>/estrategias-docentes</span>
+			<span>/misestrategiasdocentes</span>
 		</a>
 	</li>
 	<li>
