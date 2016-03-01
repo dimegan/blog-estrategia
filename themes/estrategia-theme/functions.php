@@ -200,8 +200,8 @@ function dmg_add_facebook_meta_info() {
 		echo '<meta property="og:site_name" content="'. $site_title .'"/>';
 		$logoImage = get_template_directory_uri() . '/images/custom/estrategias-docentes.jpg';
 		echo '<meta property="og:image" content="'. $logoImage .'"/>';
-		echo '<meta property="og:image:width" content="833"/>';
-		echo '<meta property="og:image:height" content="604"/>';
+		echo '<meta property="og:image:width" content="1200"/>';
+		echo '<meta property="og:image:height" content="630"/>';
 	}
 }	
 add_action('wp_head', 'dmg_add_facebook_meta_info');
