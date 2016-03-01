@@ -191,17 +191,17 @@ function dmg_add_facebook_meta_info() {
 		global $post;
 		$description = fb_excerpt( $post->post_content );
 		echo '<meta property="og:description" content="'. $description .'" />';
-	}else{
+	}else{ 
 		$site_title = get_bloginfo( 'name' );
 		echo '<meta property="og:title" content="'. $site_title .'"/>';
 		echo '<meta property="og:type" content="website"/>';
 		echo '<meta property="og:url" content="' . network_site_url( '/' ) .'"/>';
 		echo '<meta property="og:description" content="'. get_bloginfo( 'description' ) .'" />';
 		echo '<meta property="og:site_name" content="'. $site_title .'"/>';
-		$logoImage = get_template_directory_uri() . '/images/custom/estrategias-header.jpg';
+		$logoImage = get_template_directory_uri() . '/images/custom/estrategias-docentes.jpg';
 		echo '<meta property="og:image" content="'. $logoImage .'"/>';
-		echo '<meta property="og:image:width" content="171"/>';
-		echo '<meta property="og:image:height" content="60"/>';
+		echo '<meta property="og:image:width" content="833"/>';
+		echo '<meta property="og:image:height" content="604"/>';
 	}
 }	
 add_action('wp_head', 'dmg_add_facebook_meta_info');
