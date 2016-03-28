@@ -230,3 +230,12 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/*
+*Remove WP version meta (avoid boots know the wp version)
+*/
+Remove_action('wp_head', 'wp_generator');
+/*
+*Bloquear el mensaje de error en la entrada al administrador
+*/
+add_filter('login_errors',create_function('$a', "return null;"));
