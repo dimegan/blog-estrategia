@@ -932,3 +932,10 @@ img.logo-footer{
 		text-align: center;
 	}
 }
+/*Notas en las categorias*/
+.container div.category-note{
+	padding: 20px;
+}
+.container div.category-note h1{
+	font-size: 36px;/*default bootstrap style*/
+}

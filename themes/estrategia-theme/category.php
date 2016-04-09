@@ -16,6 +16,8 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
+				<!-- es usado cuando la categoría es Artículos publicados -->
+				<?php get_template_part( 'dmg/articulos-publicados' ); ?>
 				<?php get_template_part( 'home-list-posts' ); ?>
 			</div>
 			<div class="col-md-4">
