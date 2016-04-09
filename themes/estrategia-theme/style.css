@@ -783,6 +783,10 @@ img.logo-footer{
 #social-list li, #footer-menu li{
 	margin: 8px 0;
 }
+#social-list li{
+	text-align: left;
+	margin-left: 20px;
+}
 #social-list img{
 	margin-top: -5px;
 	margin-right: 5px;
