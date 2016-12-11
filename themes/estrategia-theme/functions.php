@@ -239,3 +239,10 @@ Remove_action('wp_head', 'wp_generator');
 *Bloquear el mensaje de error en la entrada al administrador
 */
 add_filter('login_errors',create_function('$a', "return null;"));
+/*
+*Hide WordPress Version
+*/
+function wpversion_remove_version() {
+return '';
+}
+add_filter('the_generator', 'wpversion_remove_version');
